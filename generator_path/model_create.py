@@ -1,4 +1,4 @@
-from generator_commands import DataParser
+from generator_path.generator_commands import DataParser
 import os
 from ecl.summary import EclSum
 import pandas as pd

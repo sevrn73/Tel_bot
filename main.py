@@ -1,7 +1,9 @@
-import telebot
+import telebot # pip install pyTelegramBotAPI
 import config
 import game
 import generator
+import dbworker
+
 
 bot = telebot.TeleBot(config.TOKEN)
 
@@ -21,14 +23,15 @@ def start(message):
 
 # Стартуем события
 def start_funk(message):
-    if message.chat.type == 'private':
-        if message.text == 'Создать модель':
-            generator.create_model()
-
-        if message.text == 'Поиграть в SimGame':
-            pass
-        else:
-            bot.send_message(message.chat.id, 'Таким вещам меня не учиил')
+    if message.text == 'Создать модель':
+        bot.send_message(message.chat.id, 'Начальные данные: Давление насыщения - 226 (атм); '
+                                          'Глубина залегания - 2500 (м); ВНК - 2600 (м)')
+        bot.send_message(message.chat.id, 'Для создания модели необходимо последовательно задать следующите параметры')
+        state = dbworker.get_current_state(message.chat.id, config.Generator.model_name.value)
+    if message.text == 'Поиграть в SimGame':
+        pass
+    else:
+        bot.send_message(message.chat.id, 'Таким вещам меня не учиил')
 
 if __name__ == '__main__':
     #RUN

@@ -1,6 +1,7 @@
 import telebot
 import config
 from generator_path.model_create import ModelGenerator
+import dbworker
 bot = telebot.TeleBot(config.TOKEN)
 
     
@@ -46,27 +47,11 @@ class Model:
         self.inj_z1s = [None]
         self.inj_z2s = [None] # вскроем разные пропластки для реализации вертикально-латерального заводнения
         self.inj_bhp = [None]
-        self.skin = [None, None]
-        self.status = 0
+        self.skin = [None]
 
     # Создаем собственную модель
     def create_model(self, message):
-        bot.send_message(message.chat.id, 'Начальные данные: Давление насыщения - 226 (атм); '
-                                          'Глубина залегания - 2500 (м); ВНК - 2600 (м)')
-        bot.send_message(message.chat.id, 'Для создания модели необходимо последовательно задать следующите параметры')
-        #if self.status == 0:
-            #bot.send_message(message.chat.id, 'Задайте название модели:')
-        if self.status == 0:
-            self.name_method()
-        if self.status == 1:
-            self.time_method()
-        # bot.send_message(message.chat.id, 'Задайте название модели:')
-        # self.model_name = message.text
-        # self.result_name = self.model_name + '_RESULT'
-        #if self.status == 1:
-        ##bot.register_next_step_handler(message, self.time_method)
-        # bot.send_message(message.chat.id, f'Дата начала расчета {self.start_date}. Количество месяцев:')
-        # self.mounths = message.text
+        pass
         # bot.send_message(message.chat.id, 'Количество ячеек по х:')
         # self.nx = int(message.text)
         # bot.send_message(message.chat.id, 'Количество ячеек по y:')
@@ -111,19 +96,20 @@ class Model:
         # new_model.create_model(self.model_name, self.result_name, self.keys)
 
 
-    @bot.message_handler(content_types=['text'])
+    @bot.message_handler(func=lambda message: dbworker.get_current_state(message.chat.id) == config.Generator.model_name.value)
     def name_method(self, message):
         bot.send_message(message.chat.id, 'Задайте название модели:')
         self.model_name = message.text
         self.result_name = self.model_name + '_RESULT'
-        if self.model_name() != None: self.status += 1
+        dbworker.set_state(message.chat.id, config.Generator.time)
+
         
-    @bot.message_handler(content_types=['text'])
+    @bot.message_handler(func=lambda message: dbworker.get_current_state(message.chat.id) == config.Generator.time.value)
     def time_method(self, message):
         bot.send_message(message.chat.id, f'Дата начала расчета {self.start_date}. Количество месяцев:')
         self.mounths = message.text
         print(self.model_name)
-        if self.mounths() != None: self.status += 1
+        #dbworker.set_state(message.chat.id, config.Ge)
         
     # Создание скважины
     @bot.callback_query_handler(func=lambda call: True)

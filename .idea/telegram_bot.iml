@@ -5,5 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="generator" />
+    <orderEntry type="module" module-name="aiogram" />
+    <orderEntry type="module" module-name="aiogram-bot-template-master" />
   </component>
 </module>

@@ -2,7 +2,7 @@ from ecl.summary import EclSum
 import pandas as pd
 import random
 
-file_name = "./workspace/SPE1.DATA"
+file_name = "./game/workspace/SPE1.DATA"
 summary = EclSum(file_name)
 dates = summary.dates
 
@@ -26,7 +26,7 @@ result_df = result_df.join(time_parameter_column)
 result_df = result_df.set_index("time")
 del result_df['test']
 
-result_df.to_csv("sim_result.csv")
+result_df.to_csv("game/sim_result.csv")
 
 def append_df_to_excel(filename, df, sheet_name='Sheet1', startrow=None,truncate_sheet=False, **to_excel_kwargs):
     from openpyxl import load_workbook
@@ -60,7 +60,7 @@ def append_df_to_excel(filename, df, sheet_name='Sheet1', startrow=None,truncate
 # Export to csv
 def export_to_csv(path, team_name):
     
-    df=pd.read_csv(path + f"/resultspace/{team_name}/sim_result.csv")
+    df=pd.read_csv(path + f"/game/resultspace/{team_name}/sim_result.csv")
     names = df.columns[1:]
     wellnames = []
     for n in names:
@@ -93,6 +93,6 @@ def export_to_csv(path, team_name):
                   '19_Пл-ть_нефти':0.85,
                   '20_Пл-ть_воды':1 })
         df1=pd.DataFrame(d)
-        append_df_to_excel(f"resultspace/{team_name}/201910_TR_1.xlsx", df1,sheet_name='TR', 
+        append_df_to_excel(f"game/resultspace/{team_name}/201910_TR_1.xlsx", df1,sheet_name='TR', 
                             startrow=0, startcol=0, index=False, header=False)
         

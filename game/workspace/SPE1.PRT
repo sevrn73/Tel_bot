@@ -14,7 +14,7 @@ Flow Version     =  2020.04 ()
 Machine name     =  DESKTOP-R9KC607 (Number of logical cores: 12, Memory size: 12270.70 MB) 
 Operating system =  Linux x86_64 (Kernel: 4.19.128-microsoft-standard, #1 SMP Tue Jun 23 12:58:10 UTC 2020 )
 Build time       =  2013-10-14 at 09:54:10 hrs
-Simulation started on 06-10-2020 at 23:12:29 hrs
+Simulation started on 10-10-2020 at 11:44:02 hrs
 Parameters used by Flow:
 # [known parameters which were specified at run-time]
 EclDeckFileName="spe1.DATA" # default: ""
@@ -182,331 +182,320 @@ VtkWriteTotalMoleFractions="0"
 VtkWriteViscosities="0"
 VtkWriteWaterFormationVolumeFactor="0"
 
-    0 Reading RUNSPEC  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 1
-    1 Reading TITLE    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 3
-    2 Reading START    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 6
-    3 Reading METRIC   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 9
-    4 Reading UNIFIN   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 11
-    5 Reading UNIFOUT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 13
-    6 Reading GAS      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 15
-    7 Reading OIL      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 17
-    8 Reading WATER    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 19
-    9 Reading DISGAS   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 21
-   10 Reading GRIDOPTS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 23
-   11 Reading NOINSPEC in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 27
-   12 Reading DIMENS   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 30
-   13 Reading TABDIMS  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 34
-   14 Reading WELLDIMS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 37
-   15 Reading MESSAGES in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 41
-   16 Reading NOECHO   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 44
-   17 Reading GRID     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 47
-   18 Reading INIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 49
-   19 Reading MAPUNITS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 2
-   20 Reading GRIDUNIT in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 5
-   21 Reading DX       in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 8
-   22 Reading DY       in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 16
-   23 Reading DZ       in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 24
-   24 Reading TOPS     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 28
-   25 Reading PORO     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GPRO.INC, line 1
-   26 Reading PERMX    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GPRO.INC, line 5
-   27 Reading PERMY    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GPRO.INC, line 9
-   28 Reading PERMZ    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GPRO.INC, line 13
-   29 Reading ACTNUM   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GPRO.INC, line 17
-   30 Reading EDIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 61
-   31 Reading PROPS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 67
-   32 Reading DENSITY  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_PVT.INC, line 1
-   33 Reading PVTO     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_PVT.INC, line 5
-   34 Reading PVTW     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_PVT.INC, line 19
-   35 Reading PVDG     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_PVT.INC, line 23
-   36 Reading ROCK     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_PVT.INC, line 36
-   37 Reading SWOF     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCAL.INC, line 1
-   38 Reading SGOF     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCAL.INC, line 19
-   39 Reading SCALECRS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCAL.INC, line 38
-   40 Reading EQUALS   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCAL.INC, line 42
-   41 Reading COPY     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCAL.INC, line 49
-   42 Reading REGIONS  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 76
-   43 Reading SOLUTION in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 82
+    0 Reading RUNSPEC  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 1
+    1 Reading TITLE    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 3
+    2 Reading START    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 6
+    3 Reading METRIC   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 9
+    4 Reading UNIFIN   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 11
+    5 Reading UNIFOUT  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 13
+    6 Reading GAS      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 15
+    7 Reading OIL      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 17
+    8 Reading WATER    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 19
+    9 Reading DISGAS   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 21
+   10 Reading GRIDOPTS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 23
+   11 Reading NOINSPEC in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 27
+   12 Reading DIMENS   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 30
+   13 Reading TABDIMS  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 34
+   14 Reading WELLDIMS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 37
+   15 Reading MESSAGES in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 41
+   16 Reading NOECHO   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 44
+   17 Reading GRID     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 47
+   18 Reading INIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 49
+   19 Reading MAPUNITS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 2
+   20 Reading GRIDUNIT in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 5
+   21 Reading DX       in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 8
+   22 Reading DY       in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 16
+   23 Reading DZ       in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 24
+   24 Reading TOPS     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 28
+   25 Reading PORO     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GPRO.INC, line 1
+   26 Reading PERMX    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GPRO.INC, line 5
+   27 Reading PERMY    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GPRO.INC, line 9
+   28 Reading PERMZ    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GPRO.INC, line 13
+   29 Reading ACTNUM   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GPRO.INC, line 17
+   30 Reading EDIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 61
+   31 Reading PROPS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 67
+   32 Reading DENSITY  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_PVT.INC, line 1
+   33 Reading PVTO     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_PVT.INC, line 5
+   34 Reading PVTW     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_PVT.INC, line 19
+   35 Reading PVDG     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_PVT.INC, line 23
+   36 Reading ROCK     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_PVT.INC, line 36
+   37 Reading SWOF     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCAL.INC, line 1
+   38 Reading SGOF     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCAL.INC, line 19
+   39 Reading SCALECRS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCAL.INC, line 38
+   40 Reading EQUALS   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCAL.INC, line 42
+   41 Reading COPY     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCAL.INC, line 49
+   42 Reading REGIONS  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 76
+   43 Reading SOLUTION in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 82
 
 Warning: Expected the kewyord: EQLDIMS to infer the number of records in: EQUIL
-   44 Reading EQUIL    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_INIT.INC, line 1
+   44 Reading EQUIL    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_INIT.INC, line 1
 
 Warning: Expected the kewyord: EQLDIMS to infer the number of records in: RSVD
-   45 Reading RSVD     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_INIT.INC, line 4
-   46 Reading RPTSOL   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_INIT.INC, line 9
-   47 Reading SUMMARY  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 88
-   48 Reading RPTONLY  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 1
-   49 Reading DATE     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 2
-   50 Reading FGPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 3
-   51 Reading FGPRF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 4
-   52 Reading FGPRS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 5
-   53 Reading FGPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 6
-   54 Reading FGPTF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 7
-   55 Reading FGPTS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 8
-   56 Reading FLPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 9
-   57 Reading FLPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 10
-   58 Reading FOPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 11
-   59 Reading FOPRF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 12
-   60 Reading FOPRS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 13
-   61 Reading FOPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 14
-   62 Reading FOPTF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 15
-   63 Reading FOPTS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 16
-   64 Reading FWPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 17
-   65 Reading FWPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 18
-   66 Reading FGIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 19
-   67 Reading FGIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 20
-   68 Reading FOIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 21
-   69 Reading FOIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 22
-   70 Reading FWIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 23
-   71 Reading FWIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 24
-   72 Reading FVPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 25
-   73 Reading FVPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 26
-   74 Reading FVIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 27
-   75 Reading FVIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 28
-   76 Reading FGOR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 29
-   77 Reading FWCT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 30
-   78 Reading FGSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 31
-   79 Reading FOSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 32
-   80 Reading FWSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 33
-   81 Reading FGPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 34
-   82 Reading FOPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 35
-   83 Reading FWPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 36
-   84 Reading FAQR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 37
-   85 Reading FAQT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 38
-   86 Reading FNQR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 39
-   87 Reading FNQT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 40
-   88 Reading FGIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 41
-   89 Reading FGIPG    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 42
-   90 Reading FGIPL    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 43
-   91 Reading FOIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 44
-   92 Reading FOIPG    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 45
-   93 Reading FOIPL    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 46
-   94 Reading FWIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 47
-   95 Reading FRPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 48
-   96 Reading FHPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 49
-   97 Reading FOE      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 50
-   98 Reading FOEW     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 51
-   99 Reading FOEIW    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 52
-  100 Reading FOEIG    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 53
-  101 Reading FMWIN    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 54
-  102 Reading FMWIP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 55
-  103 Reading FMWIT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 56
-  104 Reading FMWPP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 57
-  105 Reading FMWPR    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 58
-  106 Reading FMWPT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 59
-  107 Reading FPR      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 60
-  108 Reading FOVIS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 61
-  109 Reading FRS      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 62
-  110 Reading RGIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 63
-  111 Reading RGIPG    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 65
-  112 Reading RGIPL    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 67
-  113 Reading ROIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 69
-  114 Reading ROIPG    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 71
-  115 Reading ROIPL    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 73
-  116 Reading RWIP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 75
-  117 Reading RHPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 77
-  118 Reading RPR      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 79
-  119 Reading RRPV     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 81
-  120 Reading ROE      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 83
-  121 Reading ROEIW    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 85
-  122 Reading ROPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 87
-  123 Reading ROPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 89
-  124 Reading RWPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 91
-  125 Reading RWPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 93
-  126 Reading RWIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 95
-  127 Reading RWIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 97
-  128 Reading RGSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 99
-  129 Reading ROSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 101
-  130 Reading RWSAT    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 103
-  131 Reading RRS      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 105
-  132 Reading GGPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 107
-  133 Reading GGPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 109
-  134 Reading GLPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 111
-  135 Reading GLPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 113
-  136 Reading GOPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 115
-  137 Reading GOPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 117
-  138 Reading GWPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 119
-  139 Reading GWPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 121
-  140 Reading GGIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 123
-  141 Reading GGIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 125
-  142 Reading GOIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 127
-  143 Reading GOIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 129
-  144 Reading GWIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 131
-  145 Reading GWIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 133
-  146 Reading GGOR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 135
-  147 Reading GWCT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 137
-  148 Reading WGPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 139
-  149 Reading WGPTF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 141
-  150 Reading WLPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 143
-  151 Reading WOPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 145
-  152 Reading WOPTF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 147
-  153 Reading WOPTS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 149
-  154 Reading WWPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 151
-  155 Reading WVPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 153
-  156 Reading WGIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 155
-  157 Reading WOIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 157
-  158 Reading WWIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 159
-  159 Reading WVIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 161
-  160 Reading WEFF     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 163
-  161 Reading WGPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 165
-  162 Reading WGPRF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 167
-  163 Reading WLPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 169
-  164 Reading WOPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 171
-  165 Reading WOPRF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 173
-  166 Reading WOPRS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 175
-  167 Reading WWPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 177
-  168 Reading WVPR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 179
-  169 Reading WGIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 181
-  170 Reading WOIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 183
-  171 Reading WWIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 185
-  172 Reading WVIR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 187
-  173 Reading WGOR     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 189
-  174 Reading WWCT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 191
-  175 Reading WBHP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 193
-  176 Reading WBP      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 195
-  177 Reading WBP4     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 197
-  178 Reading WBP5     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 199
-  179 Reading WBP9     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 201
-  180 Reading WTHP     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 203
-  181 Reading WTHT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 205
-  182 Reading WAPI     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 207
-  183 Reading CGPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 209
-  184 Reading CGPTF    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 211
-  185 Reading CLPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 213
-  186 Reading COPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 216
-  187 Reading COPTS    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 218
-  188 Reading CVPT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 220
-  189 Reading CWIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 222
-  190 Reading CVIT     in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 224
-  191 Reading CPR      in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 226
-  192 Reading CTFAC    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 228
-  193 Reading FGPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 230
-  194 Reading FGPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 231
-  195 Reading FLPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 232
-  196 Reading FLPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 233
-  197 Reading FOPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 234
-  198 Reading FOPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 235
-  199 Reading FWPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 236
-  200 Reading FWPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 237
-  201 Reading FGIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 238
-  202 Reading FGITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 239
-  203 Reading FOIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 240
-  204 Reading FOITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 241
-  205 Reading FWIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 242
-  206 Reading FWITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 243
-  207 Reading FGORH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 244
-  208 Reading FWCTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 245
-  209 Reading GGPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 246
-  210 Reading GGPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 248
-  211 Reading GLPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 250
-  212 Reading GLPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 252
-  213 Reading GOPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 254
-  214 Reading GOPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 256
-  215 Reading GWPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 258
-  216 Reading GWPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 260
-  217 Reading GGIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 262
-  218 Reading GGITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 264
-  219 Reading GOIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 266
-  220 Reading GOITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 268
-  221 Reading GWIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 270
-  222 Reading GWITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 272
-  223 Reading GGORH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 274
-  224 Reading GWCTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 276
-  225 Reading WGPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 278
-  226 Reading WGPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 280
-  227 Reading WLPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 282
-  228 Reading WLPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 284
-  229 Reading WOPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 286
-  230 Reading WOPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 288
-  231 Reading WWPRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 290
-  232 Reading WWPTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 292
-  233 Reading WGIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 294
-  234 Reading WGITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 296
-  235 Reading WOIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 298
-  236 Reading WOITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 300
-  237 Reading WWIRH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 302
-  238 Reading WWITH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 304
-  239 Reading WGORH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 306
-  240 Reading WWCTH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 308
-  241 Reading WBHPH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 310
-  242 Reading WTHPH    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 312
-  243 Reading SCHEDULE in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 94
-  244 Reading DATES    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 102
-  245 Reading RPTRST   in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 1
-  246 Reading RPTSCHED in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 4
-  247 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 8
-  248 Reading WELSPECS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 11
-  249 Reading COMPDAT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 15
-  250 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 19
-  251 Reading WCONPROD in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 22
-  252 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 26
-  253 Reading WELSPECS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 29
-  254 Reading COMPDAT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 33
-  255 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 37
-  256 Reading WCONPROD in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 40
-  257 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 44
-  258 Reading WELSPECS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 47
-  259 Reading COMPDAT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 51
-  260 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 55
-  261 Reading WCONINJE in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 58
-  262 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 62
-  263 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 65
-  264 Reading WELSPECS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 68
-  265 Reading COMPDAT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 72
-  266 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 76
-  267 Reading WCONINJE in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 79
-  268 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 83
-  269 Reading WELSPECS in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 86
-  270 Reading COMPDAT  in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 90
-  271 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 94
-  272 Reading WCONINJE in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 97
-  273 Reading TSTEP    in file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SCH.INC, line 101
+   45 Reading RSVD     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_INIT.INC, line 4
+   46 Reading RPTSOL   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_INIT.INC, line 9
+   47 Reading SUMMARY  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 88
+   48 Reading RPTONLY  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 1
+   49 Reading DATE     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 2
+   50 Reading FGPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 3
+   51 Reading FGPRF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 4
+   52 Reading FGPRS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 5
+   53 Reading FGPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 6
+   54 Reading FGPTF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 7
+   55 Reading FGPTS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 8
+   56 Reading FLPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 9
+   57 Reading FLPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 10
+   58 Reading FOPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 11
+   59 Reading FOPRF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 12
+   60 Reading FOPRS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 13
+   61 Reading FOPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 14
+   62 Reading FOPTF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 15
+   63 Reading FOPTS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 16
+   64 Reading FWPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 17
+   65 Reading FWPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 18
+   66 Reading FGIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 19
+   67 Reading FGIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 20
+   68 Reading FOIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 21
+   69 Reading FOIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 22
+   70 Reading FWIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 23
+   71 Reading FWIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 24
+   72 Reading FVPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 25
+   73 Reading FVPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 26
+   74 Reading FVIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 27
+   75 Reading FVIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 28
+   76 Reading FGOR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 29
+   77 Reading FWCT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 30
+   78 Reading FGSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 31
+   79 Reading FOSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 32
+   80 Reading FWSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 33
+   81 Reading FGPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 34
+   82 Reading FOPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 35
+   83 Reading FWPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 36
+   84 Reading FAQR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 37
+   85 Reading FAQT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 38
+   86 Reading FNQR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 39
+   87 Reading FNQT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 40
+   88 Reading FGIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 41
+   89 Reading FGIPG    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 42
+   90 Reading FGIPL    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 43
+   91 Reading FOIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 44
+   92 Reading FOIPG    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 45
+   93 Reading FOIPL    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 46
+   94 Reading FWIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 47
+   95 Reading FRPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 48
+   96 Reading FHPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 49
+   97 Reading FOE      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 50
+   98 Reading FOEW     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 51
+   99 Reading FOEIW    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 52
+  100 Reading FOEIG    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 53
+  101 Reading FMWIN    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 54
+  102 Reading FMWIP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 55
+  103 Reading FMWIT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 56
+  104 Reading FMWPP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 57
+  105 Reading FMWPR    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 58
+  106 Reading FMWPT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 59
+  107 Reading FPR      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 60
+  108 Reading FOVIS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 61
+  109 Reading FRS      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 62
+  110 Reading RGIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 63
+  111 Reading RGIPG    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 65
+  112 Reading RGIPL    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 67
+  113 Reading ROIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 69
+  114 Reading ROIPG    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 71
+  115 Reading ROIPL    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 73
+  116 Reading RWIP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 75
+  117 Reading RHPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 77
+  118 Reading RPR      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 79
+  119 Reading RRPV     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 81
+  120 Reading ROE      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 83
+  121 Reading ROEIW    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 85
+  122 Reading ROPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 87
+  123 Reading ROPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 89
+  124 Reading RWPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 91
+  125 Reading RWPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 93
+  126 Reading RWIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 95
+  127 Reading RWIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 97
+  128 Reading RGSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 99
+  129 Reading ROSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 101
+  130 Reading RWSAT    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 103
+  131 Reading RRS      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 105
+  132 Reading GGPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 107
+  133 Reading GGPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 109
+  134 Reading GLPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 111
+  135 Reading GLPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 113
+  136 Reading GOPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 115
+  137 Reading GOPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 117
+  138 Reading GWPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 119
+  139 Reading GWPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 121
+  140 Reading GGIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 123
+  141 Reading GGIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 125
+  142 Reading GOIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 127
+  143 Reading GOIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 129
+  144 Reading GWIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 131
+  145 Reading GWIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 133
+  146 Reading GGOR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 135
+  147 Reading GWCT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 137
+  148 Reading WGPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 139
+  149 Reading WGPTF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 141
+  150 Reading WLPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 143
+  151 Reading WOPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 145
+  152 Reading WOPTF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 147
+  153 Reading WOPTS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 149
+  154 Reading WWPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 151
+  155 Reading WVPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 153
+  156 Reading WGIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 155
+  157 Reading WOIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 157
+  158 Reading WWIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 159
+  159 Reading WVIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 161
+  160 Reading WEFF     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 163
+  161 Reading WGPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 165
+  162 Reading WGPRF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 167
+  163 Reading WLPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 169
+  164 Reading WOPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 171
+  165 Reading WOPRF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 173
+  166 Reading WOPRS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 175
+  167 Reading WWPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 177
+  168 Reading WVPR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 179
+  169 Reading WGIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 181
+  170 Reading WOIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 183
+  171 Reading WWIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 185
+  172 Reading WVIR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 187
+  173 Reading WGOR     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 189
+  174 Reading WWCT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 191
+  175 Reading WBHP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 193
+  176 Reading WBP      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 195
+  177 Reading WBP4     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 197
+  178 Reading WBP5     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 199
+  179 Reading WBP9     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 201
+  180 Reading WTHP     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 203
+  181 Reading WTHT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 205
+  182 Reading WAPI     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 207
+  183 Reading CGPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 209
+  184 Reading CGPTF    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 211
+  185 Reading CLPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 213
+  186 Reading COPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 216
+  187 Reading COPTS    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 218
+  188 Reading CVPT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 220
+  189 Reading CWIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 222
+  190 Reading CVIT     in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 224
+  191 Reading CPR      in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 226
+  192 Reading CTFAC    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 228
+  193 Reading FGPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 230
+  194 Reading FGPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 231
+  195 Reading FLPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 232
+  196 Reading FLPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 233
+  197 Reading FOPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 234
+  198 Reading FOPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 235
+  199 Reading FWPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 236
+  200 Reading FWPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 237
+  201 Reading FGIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 238
+  202 Reading FGITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 239
+  203 Reading FOIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 240
+  204 Reading FOITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 241
+  205 Reading FWIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 242
+  206 Reading FWITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 243
+  207 Reading FGORH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 244
+  208 Reading FWCTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 245
+  209 Reading GGPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 246
+  210 Reading GGPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 248
+  211 Reading GLPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 250
+  212 Reading GLPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 252
+  213 Reading GOPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 254
+  214 Reading GOPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 256
+  215 Reading GWPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 258
+  216 Reading GWPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 260
+  217 Reading GGIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 262
+  218 Reading GGITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 264
+  219 Reading GOIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 266
+  220 Reading GOITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 268
+  221 Reading GWIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 270
+  222 Reading GWITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 272
+  223 Reading GGORH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 274
+  224 Reading GWCTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 276
+  225 Reading WGPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 278
+  226 Reading WGPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 280
+  227 Reading WLPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 282
+  228 Reading WLPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 284
+  229 Reading WOPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 286
+  230 Reading WOPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 288
+  231 Reading WWPRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 290
+  232 Reading WWPTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 292
+  233 Reading WGIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 294
+  234 Reading WGITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 296
+  235 Reading WOIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 298
+  236 Reading WOITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 300
+  237 Reading WWIRH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 302
+  238 Reading WWITH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 304
+  239 Reading WGORH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 306
+  240 Reading WWCTH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 308
+  241 Reading WBHPH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 310
+  242 Reading WTHPH    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 312
+  243 Reading SCHEDULE in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 94
+  244 Reading DATES    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 102
+  245 Reading RPTRST   in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 1
+  246 Reading RPTSCHED in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 4
+  247 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 8
+  248 Reading WELSPECS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 11
+  249 Reading COMPDAT  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 15
+  250 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 19
+  251 Reading WCONPROD in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 22
+  252 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 26
+  253 Reading WELSPECS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 29
+  254 Reading COMPDAT  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 33
+  255 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 37
+  256 Reading WCONPROD in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 40
+  257 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 44
+  258 Reading WELSPECS in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 47
+  259 Reading COMPDAT  in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 51
+  260 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 55
+  261 Reading WCONINJE in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 58
+  262 Reading TSTEP    in file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SCH.INC, line 62
 
 Warning: Keyword 'NOINSPEC' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 27
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 27
 
 
 Warning: Keyword 'NOECHO' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1.DATA, line 44
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1.DATA, line 44
 
 
 Warning: Keyword 'MAPUNITS' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 2
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 2
 
 
 Warning: Keyword 'GRIDUNIT' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_GGO.INC, line 5
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_GGO.INC, line 5
 
 
 Warning: Keyword 'RPTSOL' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_INIT.INC, line 9
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_INIT.INC, line 9
 
 
 Warning: Keyword 'RPTONLY' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 1
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 1
 
 
 Warning: Keyword 'WBP' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 195
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 195
 
 
 Warning: Keyword 'WBP4' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 197
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 197
 
 
 Warning: Keyword 'WBP5' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 199
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 199
 
 
 Warning: Keyword 'WBP9' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 201
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 201
 
 
 Warning: Keyword 'WAPI' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 207
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 207
 
 
 Warning: Keyword 'CPR' is not supported by flow.
-In file /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 226
+In file /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 226
 
 All completions in well F is shut at 15.000000 days. 
 The well is therefore also shut.
@@ -514,101 +503,97 @@ All completions in well F2 is shut at 30.000000 days.
 The well is therefore also shut.
 All completions in well В is shut at 45.000000 days. 
 The well is therefore also shut.
-All completions in well В2 is shut at 380.000000 days. 
-The well is therefore also shut.
-All completions in well L is shut at 395.000000 days. 
-The well is therefore also shut.
 
 Load balancing distributes 138383 active cells on 2 processes as follows:
   rank   owned cells   overlap cells   total cells
 --------------------------------------------------
-     0         62576             991         63567
-     1         75807             989         76796
+     0         74687             888         75575
+     1         63696             900         64596
 --------------------------------------------------
-   sum        138383            1980        140363
+   sum        138383            1788        140171
 
 
-Warning: Unhandled summary keyword 'DAY' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 2
+Warning: Unhandled summary keyword 'DAY' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 2
 
-Warning: Unhandled summary keyword 'MONTH' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 2
+Warning: Unhandled summary keyword 'MONTH' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 2
 
-Warning: Unhandled summary keyword 'YEAR' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 2
+Warning: Unhandled summary keyword 'YEAR' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 2
 
-Warning: Unhandled summary keyword 'FGSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 31
+Warning: Unhandled summary keyword 'FGSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 31
 
-Warning: Unhandled summary keyword 'FOSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 32
+Warning: Unhandled summary keyword 'FOSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 32
 
-Warning: Unhandled summary keyword 'FWSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 33
+Warning: Unhandled summary keyword 'FWSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 33
 
-Warning: Unhandled summary keyword 'FGPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 34
+Warning: Unhandled summary keyword 'FGPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 34
 
-Warning: Unhandled summary keyword 'FOPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 35
+Warning: Unhandled summary keyword 'FOPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 35
 
-Warning: Unhandled summary keyword 'FWPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 36
+Warning: Unhandled summary keyword 'FWPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 36
 
-Warning: Unhandled summary keyword 'FAQR' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 37
+Warning: Unhandled summary keyword 'FAQR' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 37
 
-Warning: Unhandled summary keyword 'FAQT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 38
+Warning: Unhandled summary keyword 'FAQT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 38
 
-Warning: Unhandled summary keyword 'FNQR' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 39
+Warning: Unhandled summary keyword 'FNQR' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 39
 
-Warning: Unhandled summary keyword 'FNQT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 40
+Warning: Unhandled summary keyword 'FNQT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 40
 
-Warning: Unhandled summary keyword 'FRPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 48
+Warning: Unhandled summary keyword 'FRPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 48
 
-Warning: Unhandled summary keyword 'FHPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 49
+Warning: Unhandled summary keyword 'FHPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 49
 
-Warning: Unhandled summary keyword 'FOE' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 50
+Warning: Unhandled summary keyword 'FOE' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 50
 
-Warning: Unhandled summary keyword 'FOEW' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 51
+Warning: Unhandled summary keyword 'FOEW' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 51
 
-Warning: Unhandled summary keyword 'FOEIW' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 52
+Warning: Unhandled summary keyword 'FOEIW' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 52
 
-Warning: Unhandled summary keyword 'FOEIG' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 53
+Warning: Unhandled summary keyword 'FOEIG' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 53
 
-Warning: Unhandled summary keyword 'FMWIP' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 55
+Warning: Unhandled summary keyword 'FMWIP' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 55
 
-Warning: Unhandled summary keyword 'FMWIT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 56
+Warning: Unhandled summary keyword 'FMWIT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 56
 
-Warning: Unhandled summary keyword 'FMWPP' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 57
+Warning: Unhandled summary keyword 'FMWPP' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 57
 
-Warning: Unhandled summary keyword 'FMWPT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 59
+Warning: Unhandled summary keyword 'FMWPT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 59
 
-Warning: Unhandled summary keyword 'FOVIS' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 61
+Warning: Unhandled summary keyword 'FOVIS' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 61
 
-Warning: Unhandled summary keyword 'FRS' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 62
+Warning: Unhandled summary keyword 'FRS' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 62
 
-Warning: Unhandled summary keyword 'RHPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 77
+Warning: Unhandled summary keyword 'RHPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 77
 
-Warning: Unhandled summary keyword 'RRPV' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 81
+Warning: Unhandled summary keyword 'RRPV' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 81
 
-Warning: Unhandled summary keyword 'ROE' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 83
+Warning: Unhandled summary keyword 'ROE' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 83
 
-Warning: Unhandled summary keyword 'ROEIW' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 85
+Warning: Unhandled summary keyword 'ROEIW' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 85
 
-Warning: Unhandled summary keyword 'RGSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 99
+Warning: Unhandled summary keyword 'RGSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 99
 
-Warning: Unhandled summary keyword 'ROSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 101
+Warning: Unhandled summary keyword 'ROSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 101
 
-Warning: Unhandled summary keyword 'RWSAT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 103
+Warning: Unhandled summary keyword 'RWSAT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 103
 
-Warning: Unhandled summary keyword 'RRS' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 105
+Warning: Unhandled summary keyword 'RRS' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 105
 
-Warning: Unhandled summary keyword 'WEFF' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 163
+Warning: Unhandled summary keyword 'WEFF' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 163
 
-Warning: Unhandled summary keyword 'WBP' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 195
+Warning: Unhandled summary keyword 'WBP' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 195
 
-Warning: Unhandled summary keyword 'WBP4' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 197
+Warning: Unhandled summary keyword 'WBP4' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 197
 
-Warning: Unhandled summary keyword 'WBP5' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 199
+Warning: Unhandled summary keyword 'WBP5' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 199
 
-Warning: Unhandled summary keyword 'WBP9' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 201
+Warning: Unhandled summary keyword 'WBP9' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 201
 
-Warning: Unhandled summary keyword 'WTHT' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 205
+Warning: Unhandled summary keyword 'WTHT' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 205
 
-Warning: Unhandled summary keyword 'WAPI' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 207
+Warning: Unhandled summary keyword 'WAPI' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 207
 
-Warning: Unhandled summary keyword 'GOITH' at /home/re/Documents/GitHub/SimGame2020/game/workspace/spe1_SUM.INC, line 268
+Warning: Unhandled summary keyword 'GOITH' at /home/re/Documents/GitHub/Tel_bot/game/workspace/spe1_SUM.INC, line 268
 
 ===============Saturation Functions Diagnostics===============
 
@@ -623,10 +608,10 @@ Warning: In saturation table SATNUM = 1, Sowcr + Swcr should be less than 1.
 ================ Starting main simulation loop ===============
 
 
-Report step  0/13 at day 0/731, date = 01-Jan-2020
+Report step  0/8 at day 0/366, date = 01-Jan-2020
 
 Time step 0, stepsize 1 days, at day 0/1, date = 01-Jan-2020
-Restart file written for report step:  0/13.  Date: 2020/01/01
+Restart file written for report step: 0/8.  Date: 2020/01/01
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       320.862 BARSA                 :
@@ -689,7 +674,7 @@ Restart file written for report step:  0/13.  Date: 2020/01/01
 :      G1:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.522 sec), linear its =   2 ( 0.249 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.456 sec), linear its =   7 ( 0.324 sec)
 
                               **************************************************************************
   Balance  at         1  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
@@ -697,13 +682,13 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.522 sec), linear its
                               **************************************************************************
 
 
-Report step  1/13 at day 1/731, date = 02-Jan-2020
+Report step  1/8 at day 1/366, date = 02-Jan-2020
 
 Time step 0, stepsize 3 days, at day 1/15, date = 02-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.380 sec), linear its =  11 ( 0.457 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.355 sec), linear its =  11 ( 0.391 sec)
 
 Time step 1, stepsize 5.5 days, at day 4/15, date = 05-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.389 sec), linear its =  10 ( 0.450 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.326 sec), linear its =  11 ( 0.425 sec)
 
 Time step 2, stepsize 5.5 days, at day 9.5/15, date = 10-Jan-2020
 
@@ -754,6 +739,9 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :      G1:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
+:       F:    1,    1:none:        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:     0.0:     0.0: 
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
 =================================================== INJECTION REPORT ========================================
 :  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
 :  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
@@ -778,7 +766,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :      G1:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.375 sec), linear its =  14 ( 0.567 sec)
+:       F:    1,    1:    PROD:none:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
+:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
+
+Time step summary: newton its =  2, linearizations =  3 ( 0.348 sec), linear its =  15 ( 0.527 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -796,10 +787,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  2/13 at day 15/731, date = 16-Jan-2020
+Report step  2/8 at day 15/366, date = 16-Jan-2020
 
 Time step 0, stepsize 1 days, at day 15/16, date = 16-Jan-2020
-Restart file written for report step:  2/13.  Date: 2020/01/16
+Restart file written for report step: 2/8.  Date: 2020/01/16
                              **************************************************************************                             
  WELSPECS AT       0.00 DAYS *                                                                        * FLOW                        
  REPORT   0     31 DEC 2007  *                                                                        * RUN AT 12:41 ON 12 SEP 2016 
@@ -893,6 +884,9 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :      G1:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
+:       F:    1,    1: BHP:        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:     0.0:     0.0: 
+:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
+
 =================================================== INJECTION REPORT ========================================
 :  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
 :  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
@@ -917,7 +911,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :      G1:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.393 sec), linear its =   5 ( 0.336 sec)
+:       F:    1,    1:    PROD: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
+:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
+
+Time step summary: newton its =  2, linearizations =  3 ( 0.384 sec), linear its =   5 ( 0.276 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -935,26 +932,25 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  3/13 at day 16/731, date = 17-Jan-2020
+Report step  3/8 at day 16/366, date = 17-Jan-2020
 
 Time step 0, stepsize 3 days, at day 16/30, date = 17-Jan-2020
-Restart file written for report step:  3/13.  Date: 2020/01/17
-    Oscillating behavior detected: Relaxation set to 0.900000
-Time step summary: newton its =  6, linearizations =  7 ( 1.096 sec), linear its =  32 ( 1.452 sec)
+Restart file written for report step: 3/8.  Date: 2020/01/17
+Time step summary: newton its =  5, linearizations =  6 ( 0.807 sec), linear its =  29 ( 1.053 sec)
 
-Time step 1, stepsize 0.127645 days, at day 19/30, date = 20-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.421 sec), linear its =   5 ( 0.331 sec)
+Time step 1, stepsize 0.123133 days, at day 19/30, date = 20-Jan-2020
+Time step summary: newton its =  2, linearizations =  3 ( 0.354 sec), linear its =   5 ( 0.286 sec)
 
-Time step 2, stepsize 0.382935 days, at day 19.1276/30, date = 20-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.410 sec), linear its =   8 ( 0.379 sec)
+Time step 2, stepsize 0.3694 days, at day 19.1231/30, date = 20-Jan-2020
+Time step summary: newton its =  2, linearizations =  3 ( 0.353 sec), linear its =   8 ( 0.317 sec)
 
-Time step 3, stepsize 1.14881 days, at day 19.5106/30, date = 20-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.439 sec), linear its =  13 ( 0.469 sec)
+Time step 3, stepsize 1.1082 days, at day 19.4925/30, date = 20-Jan-2020
+Time step summary: newton its =  2, linearizations =  3 ( 0.382 sec), linear its =  13 ( 0.456 sec)
 
-Time step 4, stepsize 3.44642 days, at day 20.6594/30, date = 21-Jan-2020
-Time step summary: newton its =  2, linearizations =  3 ( 0.411 sec), linear its =  20 ( 0.729 sec)
+Time step 4, stepsize 3.3246 days, at day 20.6007/30, date = 21-Jan-2020
+Time step summary: newton its =  2, linearizations =  3 ( 0.362 sec), linear its =  18 ( 0.543 sec)
 
-Time step 5, stepsize 5.89419 days, at day 24.1058/30, date = 25-Jan-2020
+Time step 5, stepsize 6.07467 days, at day 23.9253/30, date = 24-Jan-2020
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -968,13 +964,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       320.462 BARSA                 :
-                                                  :      PORV =     189439538   RM3                 :
+                                                  :      PORV =     189439539   RM3                 :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Porv volumes are taken at reference conditions  :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63031136             0      63031136:     81399919   :          4337   14257461381   14257465718:
+:Currently   in place    :      63031138             0      63031138:     81399919   :          4329   14257461919   14257466248:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -982,11 +978,11 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
                                                   :      PAV  =       320.462 BARSA                 :
-                                                  :      PORV =     189439538   RM3                 :
+                                                  :      PORV =     189439539   RM3                 :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63031136             0      63031136:     81399919   :          4337   14257461381   14257465718:
+:Currently   in place    :      63031138             0      63031138:     81399919   :          4329   14257461919   14257466248:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1000,10 +996,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      G1:           :    :      474.8:        0.0:   107231.7:      796.8:      0.000:    225.86:      0.0000:        :        : 
+:      G1:           :    :      476.4:        0.0:   107602.3:      799.6:      0.000:    225.87:      0.0000:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      F2:  100,  100:none:        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:     0.0:     0.0: 
+:       F:    1,    1: BHP:      476.4:        0.0:   107602.3:      799.6:      0.000:    225.87:      0.0000:   200.0:     0.0: 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
 =================================================== INJECTION REPORT ========================================
@@ -1027,13 +1023,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      G1:           :        :    :        4.5:        0.0:     1010.3:        7.5:        0.0:        0.0:        0.0:        0.0: 
+:      G1:           :        :    :        4.4:        0.0:      991.8:        7.4:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      F2:  100,  100:    PROD:none:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
+:       F:    1,    1:    PROD: BHP:        4.4:        0.0:      991.8:        7.4:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.470 sec), linear its =  24 ( 1.027 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.420 sec), linear its =  26 ( 0.847 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1051,10 +1047,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  4/13 at day 30/731, date = 31-Jan-2020
+Report step  4/8 at day 30/366, date = 31-Jan-2020
 
 Time step 0, stepsize 1 days, at day 30/31, date = 31-Jan-2020
-Restart file written for report step:  4/13.  Date: 2020/01/31
+Restart file written for report step: 4/8.  Date: 2020/01/31
                              **************************************************************************                             
  WELSPECS AT       0.00 DAYS *                                                                        * FLOW                        
  REPORT   0     31 DEC 2007  *                                                                        * RUN AT 12:41 ON 12 SEP 2016 
@@ -1112,13 +1108,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       320.437 BARSA                 :
-                                                  :      PORV =     189439396   RM3                 :
+                                                  :      PORV =     189439397   RM3                 :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Porv volumes are taken at reference conditions  :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63030705             0      63030705:     81399919   :          4592   14257363863   14257368455:
+:Currently   in place    :      63030707             0      63030707:     81399919   :          4586   14257364363   14257368949:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1126,11 +1122,11 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
                                                   :      PAV  =       320.437 BARSA                 :
-                                                  :      PORV =     189439396   RM3                 :
+                                                  :      PORV =     189439397   RM3                 :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63030705             0      63030705:     81399919   :          4592   14257363863   14257368455:
+:Currently   in place    :      63030707             0      63030707:     81399919   :          4586   14257364363   14257368949:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1144,10 +1140,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      G1:           :    :      436.3:        0.0:    98532.0:      732.3:      0.000:    225.81:      0.0000:        :        : 
+:      G1:           :    :      436.5:        0.0:    98574.4:      732.6:      0.000:    225.81:      0.0000:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      F2:  100,  100: BHP:        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:     0.0:     0.0: 
+:       F:    1,    1: BHP:      436.5:        0.0:    98574.4:      732.6:      0.000:    225.81:      0.0000:   200.0:     0.0: 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
 =================================================== INJECTION REPORT ========================================
@@ -1171,13 +1167,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      G1:           :        :    :        7.0:        0.0:     1591.1:       11.8:        0.0:        0.0:        0.0:        0.0: 
+:      G1:           :        :    :        7.0:        0.0:     1590.6:       11.8:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      F2:  100,  100:    PROD: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
+:       F:    1,    1:    PROD: BHP:        7.0:        0.0:     1590.6:       11.8:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.461 sec), linear its =  13 ( 0.563 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.375 sec), linear its =  13 ( 0.505 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1195,14 +1191,14 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  5/13 at day 31/731, date = 01-Feb-2020
+Report step  5/8 at day 31/366, date = 01-Feb-2020
 
 Time step 0, stepsize 3 days, at day 31/45, date = 01-Feb-2020
-Restart file written for report step:  5/13.  Date: 2020/02/01
-Time step summary: well its =  3, newton its =  6, linearizations =  7 ( 1.193 sec), linear its =  29 ( 1.488 sec)
+Restart file written for report step: 5/8.  Date: 2020/02/01
+Time step summary: well its =  3, newton its =  7, linearizations =  8 ( 1.086 sec), linear its =  27 ( 1.221 sec)
 
 Time step 1, stepsize 5.5 days, at day 34/45, date = 04-Feb-2020
-Time step summary: newton its =  3, linearizations =  4 ( 0.664 sec), linear its =  37 ( 1.360 sec)
+Time step summary: newton its =  3, linearizations =  4 ( 0.493 sec), linear its =  36 ( 1.004 sec)
 
 Time step 2, stepsize 5.5 days, at day 39.5/45, date = 09-Feb-2020
 
@@ -1217,26 +1213,26 @@ Warning: Keyword 'SUMMARY' is unhandled for output to file.
 Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       319.717 BARSA                 :
-                                                  :      PORV =     189435236   RM3                 :
+                                                  :      PAV  =       319.718 BARSA                 :
+                                                  :      PORV =     189435241   RM3                 :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Porv volumes are taken at reference conditions  :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63018110             0      63018110:     81399919   :         11318   14254512174   14254523492:
+:Currently   in place    :      63018125             0      63018125:     81399919   :         11337   14254515759   14254527097:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       319.717 BARSA                 :
-                                                  :      PORV =     189435236   RM3                 :
+                                                  :      PAV  =       319.718 BARSA                 :
+                                                  :      PORV =     189435241   RM3                 :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63018110             0      63018110:     81399919   :         11318   14254512174   14254523492:
+:Currently   in place    :      63018125             0      63018125:     81399919   :         11337   14254515759   14254527097:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1250,10 +1246,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      G1:           :    :      885.9:        0.0:   200071.5:     1487.0:      0.000:    225.83:      0.0000:        :        : 
+:      G1:           :    :      885.6:        0.0:   200018.4:     1486.6:      0.000:    225.84:      0.0000:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      F2:  100,  100: BHP:      483.2:        0.0:   109131.6:      811.0:      0.000:    225.87:      0.0000:   200.0:     0.0: 
+:       F:    1,    1: BHP:      402.9:        0.0:    90955.7:      676.1:      0.000:    225.77:      0.0000:   200.0:     0.0: 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
 =================================================== INJECTION REPORT ========================================
@@ -1277,13 +1273,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      G1:           :        :    :       15.5:        0.0:     3510.6:       26.1:        0.0:        0.0:        0.0:        0.0: 
+:      G1:           :        :    :       15.5:        0.0:     3509.9:       26.1:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      F2:  100,  100:    PROD: BHP:        4.6:        0.0:     1038.6:        7.7:        0.0:        0.0:        0.0:        0.0: 
+:       F:    1,    1:    PROD: BHP:       10.9:        0.0:     2471.8:       18.4:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.515 sec), linear its =  26 ( 1.028 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.374 sec), linear its =  27 ( 0.736 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1301,10 +1297,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  6/13 at day 45/731, date = 15-Feb-2020
+Report step  6/8 at day 45/366, date = 15-Feb-2020
 
 Time step 0, stepsize 1 days, at day 45/46, date = 15-Feb-2020
-Restart file written for report step:  6/13.  Date: 2020/02/15
+Restart file written for report step: 6/8.  Date: 2020/02/15
                              **************************************************************************                             
  WELSPECS AT       0.00 DAYS *                                                                        * FLOW                        
  REPORT   0     31 DEC 2007  *                                                                        * RUN AT 12:41 ON 12 SEP 2016 
@@ -1361,26 +1357,26 @@ Warning: Keyword 'SUMMARY' is unhandled for output to file.
 Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =        319.67 BARSA                 :
-                                                  :      PORV =     189434964   RM3                 :
+                                                  :      PAV  =       319.671 BARSA                 :
+                                                  :      PORV =     189434970   RM3                 :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Porv volumes are taken at reference conditions  :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63017287             0      63017287:     81399919   :         11772   14254325990   14254337762:
+:Currently   in place    :      63017303             0      63017303:     81399919   :         11792   14254329646   14254341438:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =        319.67 BARSA                 :
-                                                  :      PORV =     189434964   RM3                 :
+                                                  :      PAV  =       319.671 BARSA                 :
+                                                  :      PORV =     189434970   RM3                 :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      63017287             0      63017287:     81399919   :         11772   14254325990   14254337762:
+:Currently   in place    :      63017303             0      63017303:     81399919   :         11792   14254329646   14254341438:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1394,10 +1390,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      G1:           :    :      831.0:        0.0:   187628.6:     1394.8:      0.000:    225.79:      0.0000:        :        : 
+:      G1:           :    :      830.7:        0.0:   187582.4:     1394.4:      0.000:    225.80:      0.0000:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      F2:  100,  100: BHP:      439.9:        0.0:    99325.0:      738.3:      0.000:    225.80:      0.0000:   200.0:     0.0: 
+:       F:    1,    1: BHP:      391.2:        0.0:    88317.6:      656.6:      0.000:    225.77:      0.0000:   200.0:     0.0: 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
 =================================================== INJECTION REPORT ========================================
@@ -1421,13 +1417,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      G1:           :        :    :       20.1:        0.0:     4542.5:       33.8:        0.0:        0.0:        0.0:        0.0: 
+:      G1:           :        :    :       20.1:        0.0:     4541.6:       33.7:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      F2:  100,  100:    PROD: BHP:        7.0:        0.0:     1584.8:       11.8:        0.0:        0.0:        0.0:        0.0: 
+:       F:    1,    1:    PROD: BHP:       13.1:        0.0:     2957.5:       22.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its =  2, linearizations =  3 ( 0.457 sec), linear its =  14 ( 0.602 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.406 sec), linear its =  13 ( 0.475 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1445,32 +1441,23 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
                               **************************************************************************
 
 
-Report step  7/13 at day 46/731, date = 16-Feb-2020
+Report step  7/8 at day 46/366, date = 16-Feb-2020
 
 Time step 0, stepsize 3 days, at day 46/366, date = 16-Feb-2020
-Restart file written for report step:  7/13.  Date: 2020/02/16
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.657 sec), linear its =  31 ( 1.310 sec)
+Restart file written for report step: 7/8.  Date: 2020/02/16
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.532 sec), linear its =  30 ( 1.109 sec)
 
 Time step 1, stepsize 9 days, at day 49/366, date = 19-Feb-2020
-    Oscillating behavior detected: Relaxation set to 0.900000
-Time step summary: newton its =  8, linearizations =  9 ( 1.386 sec), linear its =  49 ( 2.131 sec)
+Time step summary: newton its =  5, linearizations =  6 ( 0.842 sec), linear its =  43 ( 1.408 sec)
 
 Time step 2, stepsize 27 days, at day 58/366, date = 28-Feb-2020
-Time step summary: newton its =  3, linearizations =  4 ( 0.601 sec), linear its =  69 ( 2.124 sec)
+Time step summary: newton its =  3, linearizations =  4 ( 0.455 sec), linear its =  75 ( 1.845 sec)
 
 Time step 3, stepsize 81 days, at day 85/366, date = 26-Mar-2020
-Time step summary: newton its =  3, linearizations =  4 ( 0.600 sec), linear its = 112 ( 3.223 sec)
+Time step summary: newton its =  3, linearizations =  4 ( 0.464 sec), linear its = 114 ( 2.903 sec)
 
 Time step 4, stepsize 200 days, at day 166/366, date = 15-Jun-2020
-
-Problem: Solver convergence failure - Iteration limit reached
-Timestep chopped to 66.000000 days
-
-
-Time step 4, stepsize 66 days, at day 166/366, date = 15-Jun-2020
-Time step summary: newton its =  3, linearizations =  4 ( 0.602 sec), linear its = 105 ( 3.157 sec)
-
-Time step 5, stepsize 134 days, at day 232/366, date = 20-Aug-2020
+    Oscillating behavior detected: Relaxation set to 0.900000
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1483,26 +1470,26 @@ Warning: Keyword 'SUMMARY' is unhandled for output to file.
 Warning: Keyword 'WELSPECS' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
-                                                  :      PAV  =       309.428 BARSA                 :
-                                                  :      PORV =     189373737   RM3                 :
+                                                  :      PAV  =       309.613 BARSA                 :
+                                                  :      PORV =     189374692   RM3                 :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Porv volumes are taken at reference conditions  :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62832283             0      62832283:     81405496   :        113345   14212433734   14212547078:
+:Currently   in place    :      62835412             0      62835412:     81405439   :        109317   14213146747   14213256064:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
 
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
-                                                  :      PAV  =       309.428 BARSA                 :
-                                                  :      PORV =     189373737   RM3                 :
+                                                  :      PAV  =       309.613 BARSA                 :
+                                                  :      PORV =     189374692   RM3                 :
                          :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62832283             0      62832283:     81405496   :        113345   14212433734   14212547078:
+:Currently   in place    :      62835412             0      62835412:     81405439   :        109317   14213146747   14213256064:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
 :========================:==========================================:================:==========================================:
@@ -1516,10 +1503,10 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      G1:           :    :      570.9:        0.0:   128759.1:      958.8:      0.000:    225.54:      0.0000:        :        : 
+:      G1:           :    :      622.6:        0.0:   140520.7:     1045.2:      0.000:    225.72:      0.0000:        :        : 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
-:      F2:  100,  100: BHP:      262.2:        0.0:    59026.3:      440.0:      0.000:    225.12:      0.0000:   200.0:     0.0: 
+:       F:    1,    1: BHP:      323.8:        0.0:    73142.3:      543.8:      0.000:    225.90:      0.0000:   200.0:     0.0: 
 :--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
 
 =================================================== INJECTION REPORT ========================================
@@ -1531,7 +1518,7 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
 :--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
 
-:      G1:           :      :      :      :        0.0:        5.8:        0.0:        0.0:        :        : 
+:      G1:           :      :      :      :        0.0:       12.3:        0.0:        0.0:        :        : 
 :--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
 
 =================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
@@ -1543,13 +1530,13 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
 :   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      G1:           :        :    :      137.6:        0.0:    31057.5:      231.0:        0.0:        5.4:        0.0:        5.5: 
+:      G1:           :        :    :       99.9:        0.0:    22558.1:      167.7:        0.0:        5.0:        0.0:        5.1: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-:      F2:  100,  100:    PROD: BHP:       63.5:        0.0:    14323.2:      106.6:        0.0:        0.0:        0.0:        0.0: 
+:       F:    1,    1:    PROD: BHP:       53.7:        0.0:    12132.4:       90.2:        0.0:        0.0:        0.0:        0.0: 
 :--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
 
-Time step summary: newton its = 11, linearizations = 12 ( 1.856 sec), linear its = 210 ( 6.602 sec)
+Time step summary: newton its = 16, linearizations = 17 ( 2.366 sec), linear its = 299 ( 7.876 sec)
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1566,660 +1553,32 @@ Warning: Keyword 'WELSPECS' is unhandled for output to file.
   Report    8    01 Jan 2021  *                                             Flow  version     2020.04  *
                               **************************************************************************
 
-
-Report step  8/13 at day 366/731, date = 01-Jan-2021
-
-Time step 0, stepsize 14 days, at day 366/380, date = 01-Jan-2021
-Restart file written for report step:  8/13.  Date: 2021/01/01
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-                                                  ===================================================
-                                                  :                   Field Totals                  :
-                                                  :      PAV  =       309.034 BARSA                 :
-                                                  :      PORV =     189371332   RM3                 :
-                                                  : Pressure is weighted by hydrocarbon pore volume :
-                                                  : Porv volumes are taken at reference conditions  :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62825236             0      62825236:     81405515   :        120606   14210829751   14210950358:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-                                                  ===================================================
-                                                  :        FIPNUM report region   1                 :
-                                                  :      PAV  =       309.034 BARSA                 :
-                                                  :      PORV =     189371332   RM3                 :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62825236             0      62825236:     81405515   :        120606   14210829751   14210950358:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-======================================================= PRODUCTION REPORT =======================================================
-:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
-:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
-=================================================================================================================================
-
-:   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      G1:           :    :      510.8:        0.0:   115578.1:      859.4:      0.000:    226.25:      0.0000:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      F2:  100,  100: BHP:      224.6:        0.0:    50936.0:      378.3:      0.000:    226.74:      0.0000:   200.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-=================================================== INJECTION REPORT ========================================
-:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
-:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
-==============================================================================================================
-
-:   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:      G1:           :      :      :      :        0.0:        1.7:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
-:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
-:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
-:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
-====================================================================================================================================
-
-:   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      G1:           :        :    :      206.1:        0.0:    46545.0:      346.2:        0.0:        5.6:        0.0:        5.7: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      F2:  100,  100:    PROD: BHP:       93.6:        0.0:    21148.6:      157.3:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-Time step summary: newton its =  3, linearizations =  4 ( 0.601 sec), linear its =  31 ( 1.089 sec)
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-
-                              **************************************************************************
-  Balance  at       380  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
-  Report    9    15 Jan 2021  *                                             Flow  version     2020.04  *
-                              **************************************************************************
-
-
-Report step  9/13 at day 380/731, date = 15-Jan-2021
-
-Time step 0, stepsize 1 days, at day 380/381, date = 15-Jan-2021
-Restart file written for report step:  9/13.  Date: 2021/01/15
-                             **************************************************************************                             
- WELSPECS AT       0.00 DAYS *                                                                        * FLOW                        
- REPORT   0     31 DEC 2007  *                                                                        * RUN AT 12:41 ON 12 SEP 2016 
-                             **************************************************************************                             
-
-                                                  WELL SPECIFICATION DATA                                                 
-                                                  -----------------------                                                 
-
---------------------------------------------------------------------------------------------------------------------------
-:   WELL   :   GROUP  : WELLHEAD :  B.H.REF : PREF- : DRAINAGE :  GAS : SHUT-IN : CROSS : PVT : WELL : FIP :     WELL    :
-:   NAME   :   NAME   : LOCATION :   DEPTH  : ERRED :  RADIUS  : INFL : INSTRCT :  FLOW : TAB : DENS : REG :  D-FACTOR 1 :
-:          :          : ( I, J ) :  METRES  : PHASE :  METRES  : EQUN :         : ABLTY :     : CALC :     :   DAY/SM3   :
---------------------------------------------------------------------------------------------------------------------------
-: В2      : G1       :   5,   5 :   2552.5 :  WAT  : P.EQUIV.R:  STD :   SHUT  :  YES  :  1  :  SEG :  0  :      0      :
---------------------------------------------------------------------------------------------------------------------------
-1: The WELL D-FACTOR is not implemented - and the report will always show the default value 0.
-
-
-                                                        WELL CONNECTION DATA                                                        
-                                                        --------------------                                                        
-
-------------------------------------------------------------------------------------------------------------------------------------
-:   WELL  :     GRID     : CMPL:  CENTRE : OPEN: SAT :CONNECTION:   INT  :   K  H  :  SKIN  : CONNECTION : SATURATION SCALING DATA :
-:   NAME  :     BLOCK    : NO# :  DEPTH  : SHUT: TAB :  FACTOR* :  DIAM  :  VALUE  : FACTOR : D-FACTOR 1 :SWMIN SWMAX SGMIN SGMAX 2:
-:         :              :     :  METRES :     :     : CPM3/D/B : METRES : MD.METRE:        :   DAY/SM3  :                         :
-------------------------------------------------------------------------------------------------------------------------------------
-: В2     :    5,  5,  1 :   1 :  2552.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  2 :   2 :  2557.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  3 :   3 :  2562.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  4 :   4 :  2567.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  5 :   5 :  2572.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  6 :   6 :  2577.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  7 :   7 :  2582.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  8 :   8 :  2587.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: В2     :    5,  5,  9 :   9 :  2592.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-------------------------------------------------------------------------------------------------------------------------------------
-1: The well connection D-FACTOR is not implemented in opm and the report will always show 0.
-2: The saturation scaling data has not been implemented in the report and will show blank
-
-
-
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-                                                  ===================================================
-                                                  :                   Field Totals                  :
-                                                  :      PAV  =       309.006 BARSA                 :
-                                                  :      PORV =     189371160   RM3                 :
-                                                  : Pressure is weighted by hydrocarbon pore volume :
-                                                  : Porv volumes are taken at reference conditions  :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62824732             0      62824732:     81405516   :        121205   14210715099   14210836303:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-                                                  ===================================================
-                                                  :        FIPNUM report region   1                 :
-                                                  :      PAV  =       309.006 BARSA                 :
-                                                  :      PORV =     189371160   RM3                 :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62824732             0      62824732:     81405516   :        121205   14210715099   14210836303:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-======================================================= PRODUCTION REPORT =======================================================
-:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
-:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
-=================================================================================================================================
-
-:   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      G1:           :    :      503.9:        0.0:   114164.3:      849.1:      0.000:    226.56:      0.0000:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      F2:  100,  100: BHP:      219.8:        0.0:    49980.2:      371.0:      0.000:    227.42:      0.0000:   200.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-=================================================== INJECTION REPORT ========================================
-:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
-:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
-==============================================================================================================
-
-:   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:      G1:           :      :      :      :        0.0:        1.4:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
-:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
-:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
-:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
-====================================================================================================================================
-
-:   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      G1:           :        :    :      213.1:        0.0:    48143.3:      358.1:        0.0:        5.6:        0.0:        5.8: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      F2:  100,  100:    PROD: BHP:       96.7:        0.0:    21848.4:      162.5:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-Time step summary: newton its =  2, linearizations =  3 ( 0.456 sec), linear its =  14 ( 0.576 sec)
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-
-                              **************************************************************************
-  Balance  at       381  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
-  Report   10    16 Jan 2021  *                                             Flow  version     2020.04  *
-                              **************************************************************************
-
-
-Report step 10/13 at day 381/731, date = 16-Jan-2021
-
-Time step 0, stepsize 3 days, at day 381/395, date = 16-Jan-2021
-Restart file written for report step: 10/13.  Date: 2021/01/16
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.465 sec), linear its =  21 ( 0.756 sec)
-
-Time step 1, stepsize 5.5 days, at day 384/395, date = 19-Jan-2021
-Time step summary: newton its =  2, linearizations =  3 ( 0.455 sec), linear its =  23 ( 0.824 sec)
-
-Time step 2, stepsize 5.5 days, at day 389.5/395, date = 24-Jan-2021
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-                                                  ===================================================
-                                                  :                   Field Totals                  :
-                                                  :      PAV  =       308.708 BARSA                 :
-                                                  :      PORV =     189369305   RM3                 :
-                                                  : Pressure is weighted by hydrocarbon pore volume :
-                                                  : Porv volumes are taken at reference conditions  :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62817527             0      62817527:     81408556   :        119779   14209079489   14209199269:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-                                                  ===================================================
-                                                  :        FIPNUM report region   1                 :
-                                                  :      PAV  =       308.708 BARSA                 :
-                                                  :      PORV =     189369305   RM3                 :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62817527             0      62817527:     81408556   :        119779   14209079489   14209199269:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-======================================================= PRODUCTION REPORT =======================================================
-:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
-:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
-=================================================================================================================================
-
-:   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      G1:           :    :      524.8:        0.0:   119275.1:      885.8:      0.000:    227.28:      0.0000:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      F2:  100,  100: BHP:      216.4:        0.0:    49247.6:      365.5:      0.000:    227.56:      0.0000:   200.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:       L:   99,   55:none:        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:     0.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-=================================================== INJECTION REPORT ========================================
-:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
-:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
-==============================================================================================================
-
-:   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:      G1:           :      :      :      :        0.0:      180.3:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
-:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
-:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
-:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
-====================================================================================================================================
-
-:   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      G1:           :        :    :      218.1:        0.0:    49271.4:      366.5:        0.0:        8.1:        0.0:        8.3: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      F2:  100,  100:    PROD: BHP:       98.8:        0.0:    22318.2:      166.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:       L:   99,   55:    PROD:none:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-Time step summary: newton its =  2, linearizations =  3 ( 0.448 sec), linear its =  21 ( 0.749 sec)
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-
-                              **************************************************************************
-  Balance  at       395  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
-  Report   11    30 Jan 2021  *                                             Flow  version     2020.04  *
-                              **************************************************************************
-
-
-Report step 11/13 at day 395/731, date = 30-Jan-2021
-
-Time step 0, stepsize 1 days, at day 395/396, date = 30-Jan-2021
-Restart file written for report step: 11/13.  Date: 2021/01/30
-                             **************************************************************************                             
- WELSPECS AT       0.00 DAYS *                                                                        * FLOW                        
- REPORT   0     31 DEC 2007  *                                                                        * RUN AT 12:41 ON 12 SEP 2016 
-                             **************************************************************************                             
-
-                                                  WELL SPECIFICATION DATA                                                 
-                                                  -----------------------                                                 
-
---------------------------------------------------------------------------------------------------------------------------
-:   WELL   :   GROUP  : WELLHEAD :  B.H.REF : PREF- : DRAINAGE :  GAS : SHUT-IN : CROSS : PVT : WELL : FIP :     WELL    :
-:   NAME   :   NAME   : LOCATION :   DEPTH  : ERRED :  RADIUS  : INFL : INSTRCT :  FLOW : TAB : DENS : REG :  D-FACTOR 1 :
-:          :          : ( I, J ) :  METRES  : PHASE :  METRES  : EQUN :         : ABLTY :     : CALC :     :   DAY/SM3   :
---------------------------------------------------------------------------------------------------------------------------
-: L        : G1       :  99,  55 :   2552.5 :  WAT  : P.EQUIV.R:  STD :   SHUT  :  YES  :  1  :  SEG :  0  :      0      :
---------------------------------------------------------------------------------------------------------------------------
-1: The WELL D-FACTOR is not implemented - and the report will always show the default value 0.
-
-
-                                                        WELL CONNECTION DATA                                                        
-                                                        --------------------                                                        
-
-------------------------------------------------------------------------------------------------------------------------------------
-:   WELL  :     GRID     : CMPL:  CENTRE : OPEN: SAT :CONNECTION:   INT  :   K  H  :  SKIN  : CONNECTION : SATURATION SCALING DATA :
-:   NAME  :     BLOCK    : NO# :  DEPTH  : SHUT: TAB :  FACTOR* :  DIAM  :  VALUE  : FACTOR : D-FACTOR 1 :SWMIN SWMAX SGMIN SGMAX 2:
-:         :              :     :  METRES :     :     : CPM3/D/B : METRES : MD.METRE:        :   DAY/SM3  :                         :
-------------------------------------------------------------------------------------------------------------------------------------
-: L       :   99, 55,  1 :   1 :  2552.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  2 :   2 :  2557.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  3 :   3 :  2562.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  4 :   4 :  2567.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  5 :   5 :  2572.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  6 :   6 :  2577.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  7 :   7 :  2582.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  8 :   8 :  2587.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55,  9 :   9 :  2592.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-: L       :   99, 55, 10 :  10 :  2597.5 : OPEN:  1  : 0.000000 :0.200000: 0.000000:10.00000:      0     :                         :
-------------------------------------------------------------------------------------------------------------------------------------
-1: The well connection D-FACTOR is not implemented in opm and the report will always show 0.
-2: The saturation scaling data has not been implemented in the report and will show blank
-
-
-
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-                                                  ===================================================
-                                                  :                   Field Totals                  :
-                                                  :      PAV  =       308.683 BARSA                 :
-                                                  :      PORV =     189369147   RM3                 :
-                                                  : Pressure is weighted by hydrocarbon pore volume :
-                                                  : Porv volumes are taken at reference conditions  :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62817010             0      62817010:     81408651   :        120663   14208961390   14209082053:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-                                                  ===================================================
-                                                  :        FIPNUM report region   1                 :
-                                                  :      PAV  =       308.683 BARSA                 :
-                                                  :      PORV =     189369147   RM3                 :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62817010             0      62817010:     81408651   :        120663   14208961390   14209082053:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-======================================================= PRODUCTION REPORT =======================================================
-:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
-:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
-=================================================================================================================================
-
-:   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      G1:           :    :      518.0:        0.0:   117590.8:      873.8:      0.000:    226.99:      0.0000:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      F2:  100,  100: BHP:      214.7:        0.0:    48831.3:      362.6:      0.000:    227.42:      0.0000:   200.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-=================================================== INJECTION REPORT ========================================
-:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
-:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
-==============================================================================================================
-
-:   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:      G1:           :      :      :      :        0.0:      102.5:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:       L:   99,   55:      :   BHP:      :        0.0:        0.0:        0.0:        0.0:     0.0:     0.0: 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
-:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
-:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
-:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
-====================================================================================================================================
-
-:   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      G1:           :        :    :      220.9:        0.0:    49918.1:      371.3:        0.0:        8.6:        0.0:        8.9: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      F2:  100,  100:    PROD: BHP:       99.9:        0.0:    22586.7:      168.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:       L:   99,   55:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-Time step summary: newton its =  2, linearizations =  3 ( 0.441 sec), linear its =  12 ( 0.543 sec)
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-
-                              **************************************************************************
-  Balance  at       396  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
-  Report   12    31 Jan 2021  *                                             Flow  version     2020.04  *
-                              **************************************************************************
-
-
-Report step 12/13 at day 396/731, date = 31-Jan-2021
-
-Time step 0, stepsize 3 days, at day 396/731, date = 31-Jan-2021
-Restart file written for report step: 12/13.  Date: 2021/01/31
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.442 sec), linear its =  20 ( 0.734 sec)
-
-Time step 1, stepsize 9 days, at day 399/731, date = 03-Feb-2021
-Time step summary: newton its =  3, linearizations =  4 ( 0.644 sec), linear its =  42 ( 1.422 sec)
-
-Time step 2, stepsize 27 days, at day 408/731, date = 12-Feb-2021
-Time step summary: newton its =  3, linearizations =  4 ( 0.580 sec), linear its =  60 ( 1.895 sec)
-
-Time step 3, stepsize 81 days, at day 435/731, date = 11-Mar-2021
-Time step summary: newton its =  8, linearizations =  9 ( 1.332 sec), linear its = 129 ( 4.253 sec)
-
-Time step 4, stepsize 215 days, at day 516/731, date = 31-May-2021
-
-Problem: Solver convergence failure - Numerical problem encountered
-Timestep chopped to 70.950000 days
-
-
-Time step 4, stepsize 70.95 days, at day 516/731, date = 31-May-2021
-Time step summary: newton its =  5, linearizations =  6 ( 0.913 sec), linear its =  90 ( 2.789 sec)
-
-Time step 5, stepsize 144.05 days, at day 586.95/731, date = 09-Aug-2021
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-                                                  ===================================================
-                                                  :                   Field Totals                  :
-                                                  :      PAV  =       301.171 BARSA                 :
-                                                  :      PORV =     189321739   RM3                 :
-                                                  : Pressure is weighted by hydrocarbon pore volume :
-                                                  : Porv volumes are taken at reference conditions  :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62673975             0      62673975:     81416832   :       2003383   14174664733   14176668116:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-                                                  ===================================================
-                                                  :        FIPNUM report region   1                 :
-                                                  :      PAV  =       301.171 BARSA                 :
-                                                  :      PORV =     189321739   RM3                 :
-                         :--------------- Oil    SM3 ---------------:-- Wat    SM3 --:--------------- Gas    SM3 ---------------:
-                         :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :      62673975             0      62673975:     81416832   :       2003383   14174664733   14176668116:
-:------------------------:------------------------------------------:----------------:------------------------------------------:
-:Originally  in place    :      63038144             0      63038144:     81399919   :             0   14259049061   14259049061:
-:========================:==========================================:================:==========================================:
-
-======================================================= PRODUCTION REPORT =======================================================
-:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :   WATER   : GAS/OIL  :  WAT/GAS   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. :    CUT    :  RATIO   :   RATIO    : CON.PR.: BLK.PR.:
-:        :           :    :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  SCM/SCM  :  SCM/SCM :  SCM/SCM   :  BARSA :  BARSA :
-=================================================================================================================================
-
-:   FIELD:           :    :        0.0:        0.0:        0.0:        0.0:      0.000:      0.00:        -nan:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      G1:           :    :      427.7:        0.0:    96831.2:      721.0:      0.000:    226.40:      0.0000:        :        : 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-:      F2:  100,  100: BHP:      168.8:        0.0:    38346.9:      285.1:      0.000:    227.14:      0.0000:   200.0:     0.0: 
-:--------:-----------:----:-----------:-----------:-----------:-----------:-----------:----------:------------:--------:--------:
-
-=================================================== INJECTION REPORT ========================================
-:  WELL  :  LOCATION : CTRL : CTRL : CTRL :    OIL    :   WATER   :    GAS    :   FLUID   : BHP OR : THP OR :
-:  NAME  :  (I,J,K)  : MODE : MODE : MODE :    RATE   :   RATE    :    RATE   :  RES.VOL. : CON.PR.: BLK.PR.:
-:        :           : OIL  : WAT  : GAS  :  SCM/DAY  :  SCM/DAY  :  SCM/DAY  :  RCM/DAY  :  BARSA :  BARSA :
-==============================================================================================================
-
-:   FIELD:           :      :      :      :        0.0:        0.0:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:      G1:           :      :      :      :        0.0:        8.3:        0.0:        0.0:        :        : 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-:       L:   99,   55:      :   BHP:      :        0.0:        4.6:        0.0:        4.7:   400.0:     0.0: 
-:--------:-----------:------:------:------:------------:----------:-----------:-----------:--------:--------: 
-
-=================================================== CUMULATIVE PRODUCTION/INJECTION REPORT =========================================
-:  WELL  :  LOCATION :  WELL  :CTRL:    OIL    :   WATER   :    GAS    :   Prod    :    OIL    :   WATER   :    GAS    :   INJ     :
-:  NAME  :  (I,J,K)  :  TYPE  :MODE:    PROD   :   PROD    :    PROD   :  RES.VOL. :    INJ    :   INJ     :    INJ    :  RES.VOL. :
-:        :           :        :    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :    MSCM   :   MSCM    :    MMSCM  :   MRCM    :
-====================================================================================================================================
-
-:   FIELD:           :        :    :        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      G1:           :        :    :      307.8:        0.0:    69549.4:      517.5:        0.0:       16.3:        0.0:       16.8: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:      F2:  100,  100:    PROD: BHP:      135.2:        0.0:    30556.6:      227.4:        0.0:        0.0:        0.0:        0.0: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-:       L:   99,   55:     INJ: BHP:        0.0:        0.0:        0.0:        0.0:        0.0:        5.5:        0.0:        5.6: 
-:--------:-----------:--------:----:------------:----------:-----------:-----------:------------:----------:-----------:-----------: 
-
-Time step summary: newton its =  8, linearizations =  9 ( 1.341 sec), linear its = 194 ( 5.837 sec)
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
-Warning: Keyword 'FLOWS' is unhandled for output to file.
-
-Warning: Keyword 'FREQ' is unhandled for output to file.
-
-Warning: Keyword 'SUMMARY' is unhandled for output to file.
-
-Warning: Keyword 'WELSPECS' is unhandled for output to file.
-
-                              **************************************************************************
-  Balance  at       731  Days *ODEH PROBLEM - IMPLICIT OPTION                                          *
-  Report   13    01 Jan 2022  *                                             Flow  version     2020.04  *
-                              **************************************************************************
-
-Restart file written for report step: 13/13.  Date: 2022/01/01
+Restart file written for report step: 8/8.  Date: 2021/01/01
 
 
 ================    End of simulation     ===============
 
 Number of MPI processes:      2
 Threads per MPI process:      2
-Total time (seconds):         107.84
-Solver time (seconds):        107.725
- Assembly time (seconds):     28.4865 (Failed: 6.07065; 21.3106%)
- Linear solve time (seconds): 75.0926 (Failed: 23.5869; 31.4104%)
- Linear solve setup time (seconds): 2.74861 (Failed: 0.650793; 23.6772%)
- Update time (seconds):       1.86982 (Failed: 0.400415; 21.4146%)
- Output write time (seconds): 0.847413
-Overall Well Iterations:      6 (Failed: 0; 0%)
-Overall Linearizations:       185 (Failed: 37; 20%)
-Overall Newton Iterations:    151 (Failed: 37; 24.5033%)
-Overall Linear Iterations:    2247 (Failed: 751; 33.4223%)
+Total time (seconds):         38.3958
+Solver time (seconds):        38.2924
+ Assembly time (seconds):     11.9391 (Failed: 0; 0%)
+ Linear solve time (seconds): 24.5276 (Failed: 0; 0%)
+ Linear solve setup time (seconds): 1.26375 (Failed: 0; 0%)
+ Update time (seconds):       0.741151 (Failed: 0; 0%)
+ Output write time (seconds): 0.480752
+Overall Well Iterations:      4 (Failed: 0; 0%)
+Overall Linearizations:       92 (Failed: 0; 0%)
+Overall Newton Iterations:    71 (Failed: 0; 0%)
+Overall Linear Iterations:    825 (Failed: 0; 0%)
 
 
 
 Error summary:
-Warnings          176
-Info              379
+Warnings          126
+Info              329
 Errors            0
 Bugs              0
 Debug             0
-Problems          2
+Problems          0
 

@@ -7,6 +7,7 @@ Created on Mon Nov 12 05:02:49 2018
 
 import pandas as pd
 import numpy as np
+import os 
 
 keywords = ['WELSPECS','COMPDAT','WCONPROD','WCONINJE','TSTEP']
 GROUP = 'G1'
@@ -497,9 +498,9 @@ class Events:
 
 def make_initial_schedule(cname):
     l = []
-    file1 = open('dataspace/rienm1_100x100x15_schedule.inc'.format(cname)).read()
+    file1 = open('game/dataspace/rienm1_100x100x15_schedule.inc'.format(cname)).read()
     l.append(file1)
-    with open("dataspace/{}/schedule_init_{}.inc".format(cname, cname), "w") as file:
+    with open("game/dataspace/{}/schedule_init_{}.inc".format(cname, cname), "w") as file:
         for item in l:
             print(item, file=file)
     return
@@ -508,14 +509,15 @@ def make_initial_schedule(cname):
 def create_schedule_for_team(name):
     print("---Начало работы над созданием schedule секции для команды " + name + "---")
     make_initial_schedule(name)
-    a = Events('dataspace/{}/schedule_init_{}.inc'.format(name, name))
-    a.read_excel('dataspace/{}/Мероприятия РиЭНМ {}.xlsx'.format(name, name))
+    dir = os.getcwd()
+    a = Events(dir + f'/game/dataspace/{name}/schedule_init_{name}.inc')
+    a.read_excel(dir + f'/game/dataspace/{name}/Мероприятия РиЭНМ {name}')
     l = []
-    file = open('dataspace/{}/schedule_init_{}.inc'.format(name, name)).read()
+    file = open(dir + f'/game/dataspace/{name}/schedule_init_{name}.inc').read()
     l.append(file)
     for a in a.schedule_new:
         l.append(a)
-    with open("dataspace/{}/schedule_new_{}.inc".format(name, name), "w") as file:
+    with open(dir + f"/game/dataspace/{name}/schedule_new_{name}.inc", "w") as file:
         for item in l:
             print(item, file=file)
 

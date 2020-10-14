@@ -27,8 +27,8 @@ class ModelGenerator:
     """
 
     def __init__(self, init_file_name='RIENM1_INIT.DATA', start_date="1 'SEP' 2019", mounths = 24, nx=100, ny=100, nz=5, dx=500, dy=500, dz=20, por=0.3, permx=100,
-                 permy=100, permz=10, prod_names=None, prod_xs=None, prod_ys=None, prod_z1s=None, prod_z2s=None, prod_q_oil=100,
-                 inj_names=None, inj_xs=None, inj_ys=None, inj_z1s=None, inj_z2s=None, inj_bhp=400, skin=0, density=None):
+                 permy=100, permz=10, prod_names=None, prod_xs=None, prod_ys=None, prod_z1s=None, prod_z2s=None, prod_q_oil=None,
+                 inj_names=None, inj_xs=None, inj_ys=None, inj_z1s=None, inj_z2s=None, inj_bhp=None, skin=None, density=None):
         self.start_date = start_date
         self.mounths = mounths
         self.nx = nx
@@ -52,6 +52,8 @@ class ModelGenerator:
             prod_z1s = [1, 1, 1, 1]
         if prod_z2s is None:
             prod_z2s = [2, 2, 2, 2]
+        if prod_q_oil is None:
+            prod_q_oil = [100, 100, 100, 100]
         if inj_ys is None:
             inj_ys = [1]
         if inj_xs is None:
@@ -62,8 +64,12 @@ class ModelGenerator:
             inj_z1s = [1]
         if inj_z2s is None:
             inj_z2s = [2]
+        if inj_bhp is None:
+            inj_bhp = [400, 400, 400, 400]
         if density is None:
             density =[860, 1010, 0.9]
+        if skin is None:
+            skin = [0, 0, 0, 0, 0]
 
         self.prod_names = prod_names
         self.prod_xs = prod_xs
@@ -122,11 +128,18 @@ class ModelGenerator:
         self.parser.parse_file('WCONINJE')
         self.parser.parse_file('TSTEP')
         self.save_file(name=name)
-        self.calculate_file(name=name)
+        self.calculate_file(name)
         self.create_result(name=name, keys=keys)
         self.read_result(name=result_name)
         self.make_plot()
         self.export_snapshots(name=name)
+
+    def calculate_prepared_model(self, name, result_name, keys):
+        file = os.getcwd() + f'/generator_path/{name}'
+        self.calculate_file(file)
+        self.create_result(name=name, keys=keys, file_dir=file)
+        self.export_snapshots(name=name)
+        self.fig_snapshots(name=name)
 
     def create_lazy_5_spot(self):
         prod_xs = [1, 1, self.nx, self.nx]
@@ -153,11 +166,11 @@ class ModelGenerator:
 
     @staticmethod
     def calculate_file(name):
-        os.system("flow %s.DATA" % name)
+        os.system("flow %s" % name)
 
     @staticmethod
-    def create_result(name, keys):
-        summary = EclSum('%s.DATA' % name)
+    def create_result(name, keys, file_dir):
+        summary = EclSum('%s' % file_dir)
         dates = summary.dates
         results = []
         all_keys = []
@@ -177,7 +190,7 @@ class ModelGenerator:
 
         result_df = pd.DataFrame(data=np.array(results).T, index=dates, columns=all_keys)
         result_df.index.name = 'Time'
-        result_df.to_csv('%s_RESULT.csv' % name)
+        result_df.to_csv('generator_path/%s_RESULT.csv' % name)
         print('%s_RESULT.csv is created' % name)
 
     def read_result(self, name):
@@ -206,7 +219,8 @@ class ModelGenerator:
         print('График построен и сохранен в атрибутах класса')
 
     def export_snapshots(self, name):
-        process = subprocess.Popen('exec ResInsight --case "%s.EGRID"' % name, shell=True)
+        path_grid = os.getcwd() + f'/generator_path/{name}'
+        process = subprocess.Popen('exec ResInsight --case "%s.EGRID"' % path_grid, shell=True)
         time.sleep(5)
         resinsight = rips.Instance.find()
         case = resinsight.project.cases()[0]
@@ -217,19 +231,20 @@ class ModelGenerator:
 
         # create a folder to hold the snapshots
         dirname = os.path.join(folder_name, f"snapshots/{name}")
+        if os.path.exists(dirname) is False:
+            os.mkdir(dirname)
         self.dir = dirname
         shutil.rmtree(dirname)
-
-        if os.path.exists(dirname) is False:
-            os.mkdir(f"snapshots/{name}")
 
         print("Exporting to folder: " + dirname)
         resinsight.set_export_folder(export_type='SNAPSHOTS', path=dirname)
 
         view = case.views()[0]
-
+        time_steps = case.time_steps()
+        l = len(time_steps) - 1
         for property in property_list:
             view.apply_cell_result(result_type='DYNAMIC_NATIVE', result_variable=property)
+            view.set_time_step(time_step=l)
             view.export_snapshot()
 
         process.kill()
@@ -249,3 +264,22 @@ class ModelGenerator:
 
         for grid in images:
             display(grid)
+
+    def fig_snapshots(self, name):
+        path_grid = os.getcwd() + f'/generator_path/{name}'
+        process = subprocess.Popen('exec ResInsight --case "%s.SMSPEC"' % path_grid, shell=True)
+        time.sleep(5)
+        resinsight = rips.Instance.find()
+        dirname = os.getcwd() + f'/generator_path/snapshots/{name}'
+        # Get a list of all plots
+        plots = resinsight.project.plots()
+        resinsight.set_export_folder(export_type='SNAPSHOTS', path=dirname)
+
+        for plot in plots:
+            plot.export_snapshot(export_folder=dirname)
+            plot.export_snapshot(export_folder=dirname, output_format='PNG')
+            if isinstance(plot, rips.WellLogPlot):
+                plot.export_data_as_las(export_folder=dirname)
+                plot.export_data_as_ascii(export_folder=dirname)
+
+        process.kill()
